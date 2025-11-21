@@ -24,7 +24,7 @@ export const CategoryModal: React.FC<CategoryModalProps> = ({ onClose, onCreate 
     };
 
     return (
-        <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 z-50 animate-fade-in">
+        <div className="fixed inset-0 bg-black opacity-80 flex items-center justify-center p-4 z-50 animate-fade-in">
         <div className="bg-white rounded-xl shadow-2xl w-full max-w-md transform transition-all duration-300 animate-slide-up-in">
             <form onSubmit={handleSubmit}>
                 <div className="flex justify-between items-center p-6 border-b border-gray-100">
